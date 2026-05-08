@@ -1,0 +1,26 @@
+name: Research Idea
+description: Propose a focused security research direction.
+title: "[Research Idea]: "
+labels: ["research", "idea"]
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: What do you expect to find?
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Method
+      description: How would this be evaluated or tested?
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: Success criteria
+      description: What evidence would validate the result?
+    validations:
+      required: true

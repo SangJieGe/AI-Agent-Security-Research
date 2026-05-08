@@ -1,0 +1,27 @@
+name: New Case Study
+description: Propose a new technical case study for AI agent or AI-generated code security.
+title: "[Case Study]: "
+labels: ["case-study", "research"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Target surface
+      description: What system or workflow is being analyzed?
+      placeholder: "e.g., AI-generated Kubernetes manifests in CI"
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Security risk
+      description: Describe the concrete risk and likely impact.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction outline
+      description: Steps, sample configs, or conditions needed to reproduce.
+    validations:
+      required: true
