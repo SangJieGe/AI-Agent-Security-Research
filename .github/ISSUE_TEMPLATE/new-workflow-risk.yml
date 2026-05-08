@@ -1,0 +1,27 @@
+name: New Workflow Risk
+description: Report a workflow-level attack surface in agent-driven automation.
+title: "[Workflow Risk]: "
+labels: ["workflow-risk", "security"]
+body:
+  - type: input
+    id: workflow
+    attributes:
+      label: Workflow
+      description: Which workflow is affected?
+      placeholder: "e.g., PR triage agent with shell + repo write"
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Trust boundary crossed
+      description: Identify trust transitions and permission assumptions.
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Proposed controls
+      description: Preventive and detective controls.
+    validations:
+      required: true
