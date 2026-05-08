@@ -1,22 +1,31 @@
 # Security Policy
 
-## Reporting Security Issues
+## Research-only scope
 
-If you identify a vulnerability in repository code, tooling, or published artifacts, open a private report through the hosting platform's security advisory workflow when available.
+This repository is for security research and defensive analysis. Content may include proof-of-concept patterns intended to help teams identify and mitigate risks.
 
-Include:
+Do not use repository content to target systems without explicit authorization.
 
-- Affected component(s)
-- Reproduction steps
-- Impact assessment
-- Suggested mitigation
+## Responsible disclosure expectations
 
-## Disclosure Approach
+When reporting a vulnerability related to this repository, provide:
 
-- Triage and validate reported issues.
-- Prioritize fixes based on exploitability and impact.
-- Publish remediations and advisory notes when appropriate.
+- affected file/component,
+- reproduction steps,
+- security impact,
+- suggested remediation (if known).
 
-## Safe Testing
+Please avoid public disclosure until maintainers confirm triage.
 
-Do not test destructive payloads against systems you do not own or operate with explicit authorization.
+## Scope limitations
+
+Reports should be limited to:
+
+- repository code, documentation examples, and workflow definitions,
+- security issues introduced by project-maintained artifacts.
+
+Operational incidents in third-party infrastructure outside project control are out of scope.
+
+## Reporting guidance
+
+Use the platform's private security reporting/advisory mechanism when available. If unavailable, open an issue without exploit details and request a private contact channel.
