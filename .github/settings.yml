@@ -1,0 +1,10 @@
+repository:
+  description: "Research repository focused on AI agent security, AI-generated code risks, workflow attack surfaces, MCP security, and AI DevSecOps."
+  topics:
+    - ai-security
+    - agent-security
+    - devsecops
+    - mcp-security
+    - ai-runtime-security
+    - github-actions-security
+    - llm-security
