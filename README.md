@@ -12,6 +12,10 @@ This repository documents early-stage, engineering-focused security research for
 - MCP trust boundaries and tool authorization concerns.
 - Practical baseline controls for AI-enabled software delivery.
 
+## Background Reading
+
+- [`docs/ai-security-landscape-2026.md`](docs/ai-security-landscape-2026.md) — AI Security Landscape 2026 (ZH): A panoramic overview of LLM security, AI Agent security, and AI-assisted security research. Provides the conceptual foundation for this repository's research scope.
+
 ## Repository Structure (current)
 
 - `baselines/` - concise security baseline guidance.
