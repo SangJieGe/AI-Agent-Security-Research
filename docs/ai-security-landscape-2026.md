@@ -2,7 +2,7 @@ Abstract: This document provides a panoramic overview of the AI security landsca
 
 # AI 安全全景观察 2026：三大模块，一场正在加速的范式重构
 
-> **作者按：** 这是我对当前 AI 安全领域的一些一线理解与研判，不求全面，但求准确。  
+> **作者：** 这是我对当前 AI 安全领域的一些一线理解与研判，不求全面，但求准确。  
 > 发布于：GitHub · AI-Agent-Security-Research | 微信公众号 | 小红书 | X (Twitter)  
 > 时间：2026 年 5 月
 
