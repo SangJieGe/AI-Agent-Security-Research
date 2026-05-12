@@ -21,6 +21,7 @@ This repository documents early-stage, engineering-focused security research for
 
 - `baselines/` - concise security baseline guidance.
 - `case-studies/` - technical writeups of concrete attack paths.
+  - [ai-generated-dockerfile-risks.md](case-studies/ai-generated-dockerfile-risks.md) — AI-Generated Dockerfile Security Risks: insecure defaults, supply chain drift, and compounding vulnerabilities in agentic pipelines.
 - `docs/` - roadmap and planning notes.
 
 ## Current Documents
