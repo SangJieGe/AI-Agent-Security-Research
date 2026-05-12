@@ -15,6 +15,7 @@ This repository documents early-stage, engineering-focused security research for
 ## Background Reading
 
 - [`docs/ai-security-landscape-2026.md`](docs/ai-security-landscape-2026.md) — AI Security Landscape 2026 (ZH): A panoramic overview of LLM security, AI Agent security, and AI-assisted security research. Provides the conceptual foundation for this repository's research scope.
+- [`docs/agent-governance-ai-devsecops-2026.md`](docs/agent-governance-ai-devsecops-2026.md) — When the State Starts Regulating Agents: Policy, Engineering Reality, and the Rise of AI DevSecOps (ZH, 2026-05)
 - [`docs/ai-security-three-directions-2026.md`](docs/ai-security-three-directions-2026.md) — AI Security 的三个方向 2026 (ZH): Analysis of how AI security is diverging into LLM Security, Agentic Security, and AI for Security — with focus on MCP protocol risks, memory poisoning, emergent组合式 vulnerabilities, and AI-assisted vulnerability research.
 
 ## Repository Structure (current)
