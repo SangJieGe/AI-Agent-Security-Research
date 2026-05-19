@@ -25,6 +25,8 @@ This repository documents early-stage, engineering-focused security research for
   - [ai-generated-dockerfile-risks.md](case-studies/ai-generated-dockerfile-risks.md) — AI-Generated Dockerfile Security Risks: insecure defaults, supply chain drift, and compounding vulnerabilities in agentic pipelines.
 - `workflow-risks/` - attack surface analysis of AI agent interactions with CI/CD and automation pipelines.
   - [github-actions-ai-agent-attack-surface.md](workflow-risks/github-actions-ai-agent-attack-surface.md) — GitHub Actions + AI Coding Agents: threat model, vulnerability classes, detection signals, and hardening baseline.
+- `mcp-security/` - protocol-level security analysis of Model Context Protocol trust assumptions and attack surfaces.
+  - [mcp-trust-boundary-analysis.md](mcp-security/mcp-trust-boundary-analysis.md) — Why MCP Changes Traditional Trust Boundaries: protocol trust model, confused deputy analysis, transitive trust propagation, and a four-dimension mitigation framework.
 - `docs/` - roadmap and planning notes.
 
 ## Current Documents
