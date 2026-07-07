@@ -1,0 +1,29 @@
+# config with real credentials (use config.example.yaml instead)
+config.yaml
+src/config.yaml
+
+# environment files
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# results (egress log may contain experiment data)
+results/egress_log.jsonl
+
+# virtual env
+venv/
+.venv/
