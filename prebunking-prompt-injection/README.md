@@ -40,11 +40,12 @@ pip install fastapi uvicorn openai scipy pyyaml
 
 ### Configuration
 
-Copy `src/config.example.yaml` to `src/config.yaml` and fill in your API credentials:
+Copy `src/config.example.yaml` to `src/config.yaml` and set up your API key as an environment variable:
 
 ```bash
 cp src/config.example.yaml src/config.yaml
-# Edit config.yaml: set your api_key_env or base_url
+# The example config already references DEEPSEEK_API_KEY — set it:
+export DEEPSEEK_API_KEY="your-deepseek-api-key"
 ```
 
 ### Run a Single Test
@@ -54,9 +55,15 @@ cp src/config.example.yaml src/config.yaml
 python src/mock_server.py
 
 # Terminal 2: run a single test
-export DEEPSEEK_API_KEY="your-key"
 python src/test_single.py --payload standard --safety
+python src/test_single.py --payload prebunking --no-safety
+python src/test_single.py --payload narrative_only --safety -n 3
+
+# See all options:
+python src/test_single.py --help
 ```
+
+Available payload types: `standard`, `standard_padded`, `narrative_only`, `weak_override`, `weak_override_plus_narrative`, `generic_override`, `prebunking`.
 
 ### Run Full Experiment
 

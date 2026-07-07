@@ -158,4 +158,5 @@ Conclusion: Results are directionally stable from N=30 to N=60.
 3. **Narrative × weak override interaction** is real on the probability scale but marginal on the log-odds scale due to quasi-separation
 4. **Single-model limitation is the primary caveat** — all results are DeepSeek-V3 specific
 
-*Raw data available in `results/raw_results.csv` (339 rows).*
+*Raw data available in `results/raw_results.csv` (339 rows).*  
+*See `results/egress_log_sample.jsonl` for a sanitized sample (22 entries) of the raw per-trial egress log.*

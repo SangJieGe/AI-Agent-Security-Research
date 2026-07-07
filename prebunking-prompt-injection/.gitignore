@@ -23,6 +23,7 @@ Thumbs.db
 
 # results (egress log may contain experiment data)
 results/egress_log.jsonl
+!results/egress_log_sample.jsonl
 
 # virtual env
 venv/
