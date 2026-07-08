@@ -10,6 +10,7 @@ This repository documents early-stage, engineering-focused security research for
 - AI-generated code risk patterns and review controls.
 - GitHub Actions and CI/CD attack surfaces in AI-assisted workflows.
 - MCP trust boundaries and tool authorization concerns.
+- **Trust Manipulation / Prebunking** — Manipulating agent trust in future information sources via inoculation-style prompt injection.
 - Practical baseline controls for AI-enabled software delivery.
 
 ## Background Reading
@@ -23,6 +24,7 @@ This repository documents early-stage, engineering-focused security research for
 - `baselines/` - concise security baseline guidance.
 - `case-studies/` - technical writeups of concrete attack paths.
   - [ai-generated-dockerfile-risks.md](case-studies/ai-generated-dockerfile-risks.md) — AI-Generated Dockerfile Security Risks: insecure defaults, supply chain drift, and compounding vulnerabilities in agentic pipelines.
+  - [from-prompt-injection-to-trust-manipulation.md](case-studies/from-prompt-injection-to-trust-manipulation.md) — From Prompt Injection to Trust Manipulation: a novel attack paradigm manipulating agent trust in future information sources via prebunking-style prompt injection. (ZH, 2026-07)
 - `workflow-risks/` - attack surface analysis of AI agent interactions with CI/CD and automation pipelines.
   - [github-actions-ai-agent-attack-surface.md](workflow-risks/github-actions-ai-agent-attack-surface.md) — GitHub Actions + AI Coding Agents: threat model, vulnerability classes, detection signals, and hardening baseline.
 - `mcp-security/` - protocol-level security analysis of Model Context Protocol trust assumptions and attack surfaces.
@@ -34,6 +36,7 @@ This repository documents early-stage, engineering-focused security research for
 - `baselines/ai-agent-security-baseline-v0.1.md`
 - `case-studies/github-actions-ai-agent-risks.md`
 - `case-studies/claude-code-dockerfile-risks.md`
+- `case-studies/from-prompt-injection-to-trust-manipulation.md`
 - `docs/roadmap.md`
 
 ## Contributing
